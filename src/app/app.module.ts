@@ -17,8 +17,6 @@ import { CadastroFuncionarioComponent } from './cadastro-funcionario/cadastro-fu
 import { ConsultaFuncionarioComponent } from './consulta-funcionario/consulta-funcionario.component';
 import { EditaFuncionarioComponent } from './edita-funcionario/edita-funcionario.component';
 import { CadastroHorarioComponent } from './cadastro-horario/cadastro-horario.component';
-import { InfoServicosComponent } from './info-servicos/info-servicos.component';
-import { SobreComponent } from './sobre/sobre.component';
 
 @NgModule({
   declarations: [
@@ -34,9 +32,7 @@ import { SobreComponent } from './sobre/sobre.component';
     CadastroFuncionarioComponent,
     ConsultaFuncionarioComponent,
     EditaFuncionarioComponent,
-    CadastroHorarioComponent,
-    InfoServicosComponent,
-    SobreComponent
+    CadastroHorarioComponent
   ],
   imports: [
     BrowserModule,
